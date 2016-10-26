@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html ng-app="shipments">
+<head>
+    <title>Shipments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/css/site.css" rel="stylesheet" />
+    <link href="app/components/home/home.css" rel="stylesheet" />
+    <link href="app/components/login/login.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+
+    <script type="text/javascript" src="//cdn.rawgit.com/auth0/angular-storage/master/dist/angular-storage.js"></script>
+    <script type="text/javascript" src="//cdn.rawgit.com/auth0/angular-jwt/master/dist/angular-jwt.js"></script>
+    
+    <script type="text/javascript" src="//cdn.auth0.com/js/lock-7.js"></script>
+    <script type="text/javascript" src="//cdn.auth0.com/w2/auth0-angular-4.js"></script>
+</head>
+<body>
+    <div class="container" ng-view></div>
+
+    <script src="app/config.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/components/home/home.js"></script>
+    <script src="app/components/login/login.js"></script>
+    
+</body>
+</html>

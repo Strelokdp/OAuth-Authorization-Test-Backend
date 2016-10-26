@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shipmentsAPI", "shipmentsAPI\shipmentsAPI.csproj", "{36772468-4476-4239-BA7B-192F5FC0F3E3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "shipmentsWeb", "shipmentsWeb\", "{003B8B7A-F2BD-45B7-9067-A3ACC61DF4F9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54924"
+		Debug.AspNetCompiler.PhysicalPath = "shipmentsWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54924\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54924"
+		Release.AspNetCompiler.PhysicalPath = "shipmentsWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54924\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54924"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36772468-4476-4239-BA7B-192F5FC0F3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36772468-4476-4239-BA7B-192F5FC0F3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36772468-4476-4239-BA7B-192F5FC0F3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36772468-4476-4239-BA7B-192F5FC0F3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003B8B7A-F2BD-45B7-9067-A3ACC61DF4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003B8B7A-F2BD-45B7-9067-A3ACC61DF4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003B8B7A-F2BD-45B7-9067-A3ACC61DF4F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{003B8B7A-F2BD-45B7-9067-A3ACC61DF4F9}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
