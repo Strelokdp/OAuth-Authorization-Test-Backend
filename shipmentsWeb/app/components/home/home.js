@@ -15,6 +15,8 @@
         });
     }
 
+    $scope.viewShipment = viewShipment;
+
     $scope.logout = function () {
         auth.signout();
         store.remove('profile');
