@@ -7,7 +7,7 @@
     'angular-jwt'
 ])
 
-.config(function ($routeProvider, authProvider) {
+.config(function ($routeProvider, authProvider, jwtOptionsProvider, $httpProvider) {
     $routeProvider
         .when('/', {
             controller: 'HomeCtrl',
@@ -24,6 +24,16 @@
         clientID: AUTH0_CLIENT_ID,
         loginUrl: '/login'
     });
+
+    jwtOptionsProvider.config({
+        tokenGetter: function (store) {
+            var token = store.get('token');
+        },
+        whiteListedDomains: ['localhost'],
+        unauthenticatedRedirectPath: '/login'
+    });
+
+    $httpProvider.interceptors.push('jwtInterceptor');
 })
 
 .run(function ($rootScope, auth, store, jwtHelper, $location) {
