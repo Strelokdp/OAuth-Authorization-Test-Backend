@@ -21,6 +21,7 @@
         auth.signout();
         store.remove('profile');
         store.remove('token');
+        store.remove('refreshToken');
         $location.path('/login');
     }
 
